@@ -1,0 +1,27 @@
+img {
+  height: 180px;
+  width: 150px;
+  object-fit: contain;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.container {
+  width: 220px;
+  height: 230px;
+  margin: 10px;
+  background-color: #fbf028;
+  border-radius: 10px;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.container:hover {
+  transform: scale(1.1);
+}
+
+p {
+  font-size: medium;
+}
